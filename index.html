@@ -122,16 +122,28 @@
     <div class="max-w-[1400px] mx-auto relative z-10">
         
         <!-- Header Section -->
-        <header class="dynamic-bg rounded-3xl shadow-2xl mb-12 p-8 md:p-12 text-center text-white">
-            <div class="flex flex-col items-center mb-6">
-                <div class="flex items-baseline space-x-2 bg-white/10 px-6 py-2 rounded-full backdrop-blur-md">
-                    <span class="oswald font-black text-2xl tracking-tighter">VIETTEL</span>
-                    <span class="oswald font-light text-2xl tracking-wide opacity-90">SOFTWARE</span>
-                </div>
-            </div>
-            <h1 class="text-5xl md:text-8xl oswald font-black uppercase italic glow-text tracking-tighter">GIẢI CẦU LÔNG</h1>
-            <div class="mt-4 bg-yellow-400 text-black px-4 py-1 font-black text-sm rounded shadow-lg inline-block">ĐÔI NAM 2026</div>
-        </header>
+       <header class="dynamic-bg rounded-b-[3rem] shadow-2xl mb-8 p-8 md:p-12 text-center text-white relative z-10">
+    <div id="back-btn-container" class="hidden mb-6 flex justify-start">
+        <a href="#" id="back-link" class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 hover:bg-white/30 rounded-xl text-white text-[10px] font-bold transition w-fit backdrop-blur-sm border border-white/10 uppercase tracking-wider">
+            &larr; Về danh sách
+        </a>
+    </div>
+
+    <div class="flex flex-col items-center mb-6">
+        <div class="flex items-baseline space-x-2 bg-white/10 px-6 py-2 rounded-full backdrop-blur-md border border-white/10">
+            <span class="oswald font-black text-2xl tracking-tighter">VIETTEL</span>
+            <span class="oswald font-light text-2xl tracking-wide opacity-90 uppercase">Software</span>
+        </div>
+    </div>
+    
+    <h1 class="text-5xl md:text-7xl oswald font-black uppercase italic glow-text tracking-tighter leading-none">
+        GIẢI CẦU LÔNG
+    </h1>
+    
+    <div id="display-tournament-name" class="mt-4 bg-yellow-400 text-black px-6 py-1.5 font-black text-sm md:text-base rounded shadow-lg inline-block uppercase tracking-widest">
+        ĐÔI NAM 2026
+    </div>
+</header>
 
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
             
